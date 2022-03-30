@@ -1,0 +1,223 @@
+:root {
+  --dark-color: #19283F;
+  --green-color: #2CA6A8 ;
+  --yellow-color: #FFC400 ;
+  --red-color: #FF3150 ;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  scroll-behavior: smooth;
+  outline: none;
+  line-height: 1.8;
+}
+
+.bg-light {
+  background-color: var(--dark-color) !important;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--green-color) !important;
+}
+
+.fa-magnifying-glass {
+  color: var(--green-color);
+  border-left: 2px solid var(--green-color);
+  padding-left: 2rem;
+}
+
+.btn-red,
+.btn-red:hover {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+
+/*-- Landing Section --*/
+.landing {
+  height: calc(100vh - 60px);
+}
+
+.feature .main-title p::after,
+.we-make-title p::after {
+  content: " ";
+  background-color: var(--green-color);
+  margin: 3rem 0;
+  position: absolute;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  height: 2px;
+  width: 120px;
+  left: 50%;
+}
+
+.feature .fa-pencil,
+.feature .fa-tv,
+.feature .fa-plug-circle-check {
+  color: var(--green-color);
+}
+
+.feature h3 {
+  color: var(--yellow-color);
+}
+
+.feature-cols {
+  margin: 8rem 0;
+}
+
+/* ----------------------------------- */
+.we-make li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.we-make li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.we-make ul li:first-child {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+  padding: 5px 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.we-make .catigory img {
+  margin: 15px 0;
+}
+
+/*------------------- */
+.project {
+  background-color: var(--dark-color);
+}
+
+/*-----------------------*/
+.subscribe {
+  background-color: var(--yellow-color);
+  height: 200px;
+}
+
+.content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content label {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-black {
+  background-color: var(--dark-color);
+  color: var(--yellow-color);
+  padding: 10px 20px;
+}
+
+.btn-black:hover {
+  color: var(--yellow-color);
+}
+
+.subscribe input {
+  background-color: var(--yellow-color);
+}
+
+.subscribe input::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #fff;
+}
+
+.subscribe input:-ms-input-placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #fff;
+}
+
+.subscribe input::-ms-input-placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #fff;
+}
+
+.subscribe input::placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #fff;
+}
+
+.subscribe input:focus-visible {
+  outline: 0px;
+}
+
+/*-------------- Footer Section ------------------*/
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer span {
+  color: var(--green-color);
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0 0px;
+}
+
+.footer ul li {
+  padding: 5px 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/*--------------------  Blog ---------------------*/
+.blog .blog-title p::after {
+  content: "";
+  position: absolute;
+  background-color: var(--green-color);
+  left: 50%;
+  width: 120px;
+  height: 2px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  margin: 2rem 0;
+}
+/*# sourceMappingURL=main.css.map */
